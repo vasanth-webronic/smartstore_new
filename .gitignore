@@ -1,0 +1,38 @@
+# Ignore everything by default
+/*
+!.gitignore
+# But not these folders
+!/wp-content/
+
+# But not these directories (to keep wp-content structure)
+/wp-content/*
+!/wp-content/plugins/
+!/wp-content/themes/
+
+# Only track the following specific custom plugins
+# Ignore all plugin folders initially
+/wp-content/plugins/*
+
+# But track your custom plugins by specifying them explicitly
+
+!/wp-content/plugins/woo-product-img-info/
+!/wp-content/plugins/thingsatweb/
+!/wp-content/plugins/taw-s3manager/
+!/wp-content/plugins/Taw-filter-settings/
+!/wp-content/plugins/rename-product-images/
+!/wp-content/plugins/product-visibility-by-user-role-for-woocommerce/
+!/wp-content/plugins/product-stack-pricing/
+!/wp-content/plugins/pdf-attribute-extractor-admin/
+!/wp-content/plugins/Datasheet-settings/
+!/wp-content/plugins/custom-user-access-management/
+!/wp-content/plugins/checker/
+!/wp-content/plugins/Categorywise-FQA/
+!/wp-content/plugins/attribute-verification/
+!/wp-content/plugins/attribute-segmentation/
+
+
+# Track all themes but ignore everything else inside wp-content/themes
+/wp-content/themes/*
+# But track the child theme (replace 'hello-child' with the actual child theme folder name)
+!/wp-content/themes/hello-child/
+
