@@ -1,0 +1,8 @@
+#checker-progress {
+    font-family: monospace;
+    font-size: 13px;
+}
+
+#checker-results-table td, #checker-results-table th {
+    vertical-align: middle;
+}

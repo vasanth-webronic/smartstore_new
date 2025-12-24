@@ -1,0 +1,393 @@
+@-webkit-keyframes pulse-has-unresolved-data-v-cb79cb1c{
+    0%{
+        -webkit-box-shadow:0 0 0 0 rgba(244,244,244,.7);
+        box-shadow:0 0 0 0 rgba(244,244,244,.7)
+    }
+    70%{-webkit-box-shadow:0 0 0 8px transparent;box-shadow:0 0 0 8px transparent}to{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}
+}
+
+@keyframes pulse-has-unresolved-data-v-cb79cb1c{
+    0%{
+        -webkit-box-shadow:0 0 0 0 rgba(244,244,244,.7);box-shadow:0 0 0 0 rgba(244,244,244,.7)}
+    70%{-webkit-box-shadow:0 0 0 8px transparent;box-shadow:0 0 0 8px transparent}to{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}
+}
+
+.badgee{
+     position:absolute;
+    left:35px;
+    top:2px;
+    width:22px;
+    height:22px;
+    line-height:22px;
+    border-radius:50%;
+    border: 1px solid #ffffff;
+    background-color: #f23e3e;
+    color: #ffffff;
+     text-align:center;
+     cursor:pointer;
+     -webkit-animation:pulse-has-unresolved-data-v-cb79cb1c 2s infinite;
+     animation:pulse-has-unresolved-data-v-cb79cb1c 2s infinite;
+}
+
+#primary{
+     background-repeat: no-repeat;
+     background-size: 100% auto;
+     padding: 15px 0;
+     margin: 0px;
+     box-shadow: inset 0px 0px 10px;
+}
+
+.t_list_table{
+    border-spacing: 5px;
+    border-collapse: inherit;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.t_list_table .t_heading{
+    padding:0px;
+    color:#d7d7d7;
+    background:#374151;
+    text-align:left;
+    padding-left:15px;  
+    float:left;
+    width:100%;  
+    font-size:14px;           
+}
+
+.t_list_table .t_heading > div{
+    float:left;
+    display:block;
+    padding: 5px 10px;
+}            
+
+.t_list_table .t_row{               
+    border: solid 1px #f1f1f1;                
+    width:100%;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    line-height:30px;
+    color:#000;
+}
+
+.t_list_table .t_row.active {
+    background: #f30106;
+    color:#fff;
+}
+
+.t_list_table .t_row > div{
+    float:left;
+    display:block; 
+    padding-left:10px;   
+    height: 100px;
+    overflow: hidden;            
+}
+
+.t_list_table img{
+    width:75px;
+    display: inline-block;
+}
+
+.t_list_table .t_row span.add_to_cart{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #cc061c;
+    line-height: 32px;
+    padding-right: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.t_list_table .t_row.active span.add_to_cart{
+    background:#fff;
+    color:#cc061c;
+}
+.t_list_table .t_row .t_art_num{               
+    color:#cc071c;
+}
+
+.t_list_table .t_row.active .t_art_num{               
+    color:#fff;
+}
+
+.t_list_table .t_row.actvie td span.add_to_cart{
+    background:#fff;               
+}
+
+.t_list_table .t_row.active{
+    background:#cc071c;
+    color:#fff;
+}
+
+.acc_list_table{
+    border-spacing: 5px;
+    border-collapse: inherit;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.acc_list_table .t_heading{
+    padding:0px;
+    color:#d7d7d7;
+    background:#374151;
+    text-align:left;
+    padding-left:15px;  
+    float:left;
+    width:100%;  
+    font-size:14px;           
+}
+
+.acc_list_table .t_heading > div{
+    float:left;
+    display:block;
+    padding: 5px 10px;
+}            
+
+.acc_list_table .t_row{               
+    border: solid 1px #f1f1f1;                
+    width:100%;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    line-height:30px;
+    color:#000;
+}
+
+.acc_list_table .t_row > div{
+    float:left;
+    display:block; 
+    padding-left:10px;   
+    height: 100px;
+    overflow: hidden;            
+}
+
+.acc_list_table img{
+    width:75px;
+    display: inline-block;
+}
+
+.acc_list_table .t_row span.add_to_cart{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #cc061c;
+    line-height: 32px;
+    padding-right: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+
+.acc_list_table .t_row .t_art_num{               
+    color:#cc071c;
+}
+
+
+#t_modal .t_item_action .min_req{
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+
+#t_modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 100001;
+    overflow: auto; /* Enable scrolling if content overflows */
+}
+
+.prof_img{
+    width: 80px;
+    height: auto;
+}
+
+#t_modal .t_cont {
+    width: 90%;
+    max-width: 700px;
+    margin: 10% auto; /* Center the modal vertically and horizontally */
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#t_modal .t_head {
+    text-align: right;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+#t_modal .t_cont .t_item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #e5e5ea;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#t_modal .t_cont .t_item_img {
+    width: 90px;
+    float: left;
+}
+#t_modal .t_cont .t_item_img img {
+border-radius: 8px;
+}
+
+#t_modal .t_cont .t_item_info {
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#t_modal .t_cont .t_item_action {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#t_modal .t_cont .t_item_info .artno {
+    padding: 5px 10px;
+    display: inline;
+    border-radius: 10px;
+    background: #374151;
+    color: #e7e8ea;
+    font-size: 12px;
+}
+
+#t_modal .t_cont .t_item_info .price {
+    color: #cc071e;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#t_modal .t_cont .t_item_info .name {
+    font-weight: bold;
+    font-size: 14px;
+    height: auto;
+    overflow: hidden;
+}
+
+#t_modal .t_close_btn {
+    background: #000;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+}
+#t_modal .t_time_action_item{
+    border-radius: 20px;
+    width: 108px;
+    background: #fff;
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    line-height: 30px;
+    text-align: center;
+}
+
+
+#t_modal .t_time_action_item .t_time_action_item_minus{
+    display: inline-block;
+    width: 26px;               
+    font-size: 24px;
+    color: #cc061c;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+#t_modal .t_time_action_item .t_time_action_item_plus{
+    display: inline-block;
+    width: 26px;               
+    font-size: 24px;
+    color: #cc061c;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#t_modal .t_time_action_item .t_time_action_item_val{
+    display: inline-block;
+    width: 26px;
+    font-size:20px;
+    border: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#t_modal .t_spare_add_to_cart{
+    width: 100%;
+    background: #cc061c;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    margin-top: 10px;
+}
+#t_modal .t_total_info{
+    padding: 10px 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #t_modal .t_cont {
+        width: 90%;
+        margin: 40px auto; /* Adjust margin for smaller screens */
+    }
+
+    #t_modal .t_cont .t_item_img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+
+    #t_modal .t_cont .t_item_info {
+        width: 100%;
+        padding-left: 10px;
+    }
+    #t_modal .t_cont .t_item {
+        flex-direction: column;
+}
+    #t_modal .t_cont .t_item_action{
+        justify-content: center;
+        align-items: center;
+    }
+    #t_modal .t_item_action .min_req{
+        text-align: center;
+    }
+}

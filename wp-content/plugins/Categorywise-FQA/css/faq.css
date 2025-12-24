@@ -1,0 +1,128 @@
+.vf-main-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vf-search-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+/* Search Icon */
+.vf-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Adjust for padding */
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none; /* Makes the icon non-interactive */
+}
+
+
+/* Focus State */
+.vf-text-input:focus {
+    border-color: #eaeaea;
+    box-shadow: 0 0 5px #eaeaea;
+}
+input.vf-text-input {
+  margin: 0 auto;
+  display:block;
+  width: 50%;
+  padding: 10px 50px !important;
+  background-color: #fff;
+  border-radius: 20px !important;
+  outline: none;
+  border: 1px solid #ddd !important;
+
+}
+.vf-title{
+    text-align: center;
+    font: normal normal bold 26px/55px Poppins !important;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+ul.vfqanda {
+    color:#000;
+    list-style:none;
+    /* margin-top: 50px; */
+    width: 100%;
+
+}
+ul.vfqanda li {
+    border-bottom: 1px solid #ddd; /* Adds a border below each FAQ item */
+    padding-bottom: 10px; /* Adds spacing between the border and content */
+    margin-bottom: 25px; /* Adds spacing between items */
+}
+.vfqanda .vfquestion {
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size:1.2em; */
+    font-weight:600;
+    padding:.1em 10px;
+    position:relative;
+    /* font: normal normal 600 20px/35px Poppins; */
+    border-radius: 10px;
+    color: #000;
+    transition: 250ms all linear;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.vfqanda .vfanswer {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.vfqanda a {
+    color:#f59e00
+}
+.vfqanda a:hover {
+    color:#ec6408
+}
+.vfqanda .vfquestion.active {
+    color: black;
+    border-bottom-right-radius:0px ;
+    border-bottom-left-radius:0px ;
+    transition: 250ms all linear;
+}
+.vfqanda .vfquestion:hover {
+    background-color: #eaeaea;
+}
+.vfqanda .vf-toggle-icon {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #DC2626; /* Matches the question text color */
+    transition: transform 0.3s;
+}
+
+/* Rotate the icon for active state */
+.vfqanda .vfquestion.active .vf-toggle-icon {
+    transform: rotate(180deg); /* Changes '+' to '×' or similar */
+}
+
+@media screen and (max-width: 715px) {
+    ul.vfqanda {
+
+        margin:30px auto;
+
+    }
+    input.vf-text-input {
+
+        width: 70%;
+
+      }
+  }
+
+  .vf-main-container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}

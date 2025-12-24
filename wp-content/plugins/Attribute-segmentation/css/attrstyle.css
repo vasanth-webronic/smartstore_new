@@ -1,0 +1,139 @@
+#seg-search-results {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+.search-item {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+.search-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.seg-no-results {
+  color: #999;
+  padding: 5px;
+}
+#seg, #artseg {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Form styles */
+#seg_form, #artseg_form {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between label, dropdown, and button */
+}
+
+#seg_form label, #artseg_form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#seg_form select, #artseg_form select {
+  width: 400px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#seg_form input[type="submit"], #artseg_form input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #0073aa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#seg_form input[type="submit"]:hover, #artseg_form input[type="submit"]:hover {
+  background-color: #005a87;
+}
+#loader, #artloader {
+  text-align: center;
+  margin: 20px 0;
+}
+#seg_results, #artseg_results {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.d-none{
+  display: none;
+}
+.toggle-icon, .arttoggle-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+} 
+.togglecontent-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2271B1;
+  cursor: pointer;
+} 
+#main-dropdown {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+div[style*="overflow-y"]::-webkit-scrollbar {
+  width: 8px;
+}
+
+div[style*="overflow-y"]::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+div[style*="overflow-y"]::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+div[style*="overflow-y"]::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.collapsible-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.collapsible-header:hover {
+  background-color: #e0e0e0;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.togglecontent-icon {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.collapsible-content {
+  display: none;
+  padding: 10px;
+  background-color: #2271B1;
+  border-top: 1px solid #ccc;
+}

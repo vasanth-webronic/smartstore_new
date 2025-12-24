@@ -1,0 +1,19 @@
+#avp_progress_bar_container {
+  border-bottom: 1px solid #ddd;
+}
+
+#avp_progress_bar {
+  transition: width 0.3s ease;
+}
+
+#avp_log {
+  height: 260px;
+  overflow-y: auto;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  padding: 5px;
+  background: #fff;
+  color: #333;
+  border-top: none;
+}

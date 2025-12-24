@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.254",
+        "woocommerce/action-scheduler": "^3.5"
+    }
+}
